@@ -14,8 +14,7 @@ public class Bird extends Animal{
 	}
 
 
-	@Override
-	public String showInfo() {
+	public String ShowInfo() {
 		return "Bird [feather=" + feather + ", canFly=" + canFly + ", heightInFeet=" + heightInFeet + ", InKilo="
 				+ InKilo + ", animalType=" + animalType + ", bloodType=" + bloodType + "]";
 	}

@@ -2,10 +2,10 @@ package com.animalKingdom;
 
 public class Animal {
 
-	private float heightInFeet;
-	private float InKilo;
-	private String animalType;
-	private String bloodType;
+	protected float heightInFeet;
+	protected float InKilo;
+	protected String animalType;
+	protected String bloodType;
 	
 //	defaultのconstructor
 	public Animal() {
@@ -16,8 +16,7 @@ public class Animal {
 		
 	}
 
-	@Override
-	public String showInfo() {
+	public String ShowInfo() {
 		return "Animal [heightInFeet=" + heightInFeet + ", InKilo=" + InKilo + ", animalType=" + animalType
 				+ ", bloodType=" + bloodType + "]";
 	}
